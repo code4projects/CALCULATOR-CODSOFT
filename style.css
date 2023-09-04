@@ -1,0 +1,64 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Ubuntu:wght@300&display=swap'); */
+
+/* html, */
+body {
+    height: 100%;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    background-color: #00defb;
+}
+
+.button {
+    width: 66px;
+    padding: 20px;
+    margin: 0 3px;
+    border: 2px solid hwb(250 0% 15%);
+    background-color: hwb(0 96% 4%);
+    /* background-image: url("s.avif"); */
+    border-radius: 9px;
+    cursor: pointer;
+
+}
+
+.row {
+    margin: 8px 0;
+}
+
+.row input {
+    width: 291px;
+    font-size: 20px;
+    margin: 0;
+    padding: 10px 0px;
+    border: 2px solid #7a00fd;
+    border-radius: 11px;
+    background-color: #ccff00;
+}
+
+
+
+.text-center {
+    text-align: center;
+
+}
+
+
+.flex {
+    display: flex;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+.items-center {
+    align-items: center;
+}
+
+/* 
+.bg-red {
+    background: rgb(0, 248, 128);
+} */
+/* 
+.mx-auto {
+    margin: auto;
+} */
